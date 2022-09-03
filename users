@@ -1,0 +1,14 @@
+[
+				{
+					id: 1,
+					name: "MCCO4rrQ3h",
+					online: false,
+					picture: "https://picsum.photos/seed/57/60/60",
+				},
+				{
+					id: 2,
+					name: "kIfSa6kPqH",
+					online: true,
+					picture: "https://picsum.photos/seed/52/60/60",
+				},
+			];
