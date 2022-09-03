@@ -1,26 +1,7 @@
-Clubs: [
-					{
-						Id: 1,
-						Name: "The Glass Slipper",
-						Address: [
-							{
-								street: "22 Lagrange St",
-								city: "Boston",
-								state: "MA",
-								zip: 02116,
-							},
-						],
-					},
-					{
-						id: 2,
-						name: "Centerfolds Boston",
-                        Address: [
-							{
-								street: "12 Lagrange St",
-								city: "Boston",
-								state: "MA",
-								zip: 02116,
-							},
-						],
-					},
-				],
+{
+  "User": {
+    "name": { "string": { "minLength": 3, "maxLength": 10 } },
+    "online": { "boolean": {} },
+    "picture": { "regexp": "https://…" }
+  }
+}
