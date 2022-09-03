@@ -1,7 +1,7 @@
 {
-  "User": {
-    "name": { "string": { "minLength": 3, "maxLength": 10 } },
-    "online": { "boolean": {} },
-    "picture": { "regexp": "https://…" }
-  }
+    "User": {
+        "id": "id",
+        "first_name": "firstName",
+        "last_name": "lastName"
+    }
 }
